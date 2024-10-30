@@ -1,0 +1,49 @@
+*{margin: 0; padding: 0;}
+body{
+    margin: 100px 350px;
+    background-color: #ffffff;
+}
+header{
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    column-gap: 40px;
+}
+main{
+    margin: 40px 100px;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+
+}
+button{
+    width: 200px;
+    height: 100px;
+    font-size: large;
+    cursor: pointer;
+    background-color: gray;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 3px;
+}
+.button2{
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    cursor: pointer;
+    background-color: rgb(0, 255, 255);
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 3px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#btnVoltar{
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    cursor: pointer;
+    background-color: rgb(0, 255, 255);
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 3px;
+}
